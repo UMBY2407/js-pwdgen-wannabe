@@ -1,0 +1,11 @@
+const nome = prompt("Come ti chiami?");
+const cognome = prompt("Il tuo cognome?");
+let colore = prompt("Qual'è il tuo colore preferito?");
+let numero1 = prompt("Inserire un numero");
+numero1 = parseInt(numero1);
+let numero2 = prompt("Inserire un altro numero");
+numero2 = parseInt(numero2);
+let numeroPwd = numero1 / numero2; 
+let password = nome + cognome + colore + numeroPwd;
+console.log(password);
+document.getElementById('p_pwd').innerHTML = `La tua nuova Password è: ${password}`;
