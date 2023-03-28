@@ -1,6 +1,6 @@
-const nome = prompt("Come ti chiami?");
-const cognome = prompt("Il tuo cognome?");
-let colore = prompt("Qual'è il tuo colore preferito?");
+const nome = prompt("Qual'è il tuo Nome?");
+const cognome = prompt("E il tuo Cognome?");
+let colore = prompt("Il Colore preferito?");
 let numero1 = prompt("Inserire un numero");
 numero1 = parseInt(numero1);
 let numero2 = prompt("Inserire un altro numero");
